@@ -1,11 +1,11 @@
-package com.jgbravo.exchangemoney.data.dtos.out
+package com.jgbravo.exchangemoney.data.dtos.`in`
 
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class RatesOutDTO(
+data class RatesInDTO(
     @Json(name = "EUR")
     val eUR: Double?,
     @Json(name = "AUD")
